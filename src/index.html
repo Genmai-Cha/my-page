@@ -8,9 +8,40 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+    <header class="bg-neutral-200 py-8">
+        <ul class="flex justify-around">
+            <li>
+                <a href="#about">about</a>
+            </li>
+            <li>
+                <a href="#memo">memo</a>
+            </li>
+            <li>
+                <a href="#">blog</a>
+            </li>
+        </ul>
+    </header>
+
+    <section class="w-10/12 m-auto" id="about">
+        <h2 class="font-extrabold text-5xl">about</h2>
+        <div class="flex items-center">
+            <div class="w-2/4">
+                <p>ポートフォリオページ（仮）にするページ。作った画像とか載せるよ！</p>
+            </div>
+            <div class="w-2/4">
+                <img src="./img/oasis-night.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="memo" class="w-10/12 m-auto">
+        <h2 class="font-extrabold text-5xl">memo</h2>
+    </section>
+
+    <section id="blog" class="w-10/12 m-auto">
+        <h2 class="font-extrabold text-5xl">blog</h2>
+        <p>学んだことはここに載せています</p>
+    </section>
     
 </body>
 </html>
